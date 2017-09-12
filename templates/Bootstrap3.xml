@@ -1,0 +1,8 @@
+<templateSet group="Bootstrap3">
+  <template name="bs3-progress-bar:success" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-success&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;40&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 40%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;40% Complete (success)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Progress bar (success)" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="GSP" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,131 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="Git">
+      <project id="untitled1" values="config.warn.about.crlf.enabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled" collectionTime="1471692804510" />
+    </group>
+    <group name="php-interpreter-version">
+      <project id="untitled1" values="not installed" collectionTime="1471693951267" />
+      <project id="katmeds" values="not installed" collectionTime="1472615954149" />
+    </group>
+    <group name="php-servers">
+      <project id="untitled1" values="0" collectionTime="1471693951266" />
+      <project id="katmeds" values="0" collectionTime="1472615954149" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="untitled1" values="ECMAScript 5.1" collectionTime="1471693951259" />
+      <project id="katmeds" values="ECMAScript 5.1" collectionTime="1472615954024" />
+    </group>
+    <group name="php-interpreters">
+      <project id="untitled1" values="0" collectionTime="1471693951274" />
+      <project id="katmeds" values="0" collectionTime="1472615954165" />
+    </group>
+    <group name="php-include-path">
+      <project id="untitled1" values="0" collectionTime="1471693951261" />
+      <project id="katmeds" values="0" collectionTime="1472615954134" />
+    </group>
+    <group name="images.ide.background">
+      <project id="katmeds" values="frame 0,editor 0" collectionTime="1472615954024" />
+    </group>
+    <group name="php-debug-skipped-paths">
+      <project id="untitled1" values="0" collectionTime="1471693951276" />
+      <project id="katmeds" values="0" collectionTime="1472615954180" />
+    </group>
+    <group name="file-type">
+      <project id="untitled1" values="PHP" collectionTime="1471693951195" />
+      <project id="katmeds" values="Locale,TypeScript,UNKNOWN,CSS,Blade,SCSS,ARCHIVE,Markdown,ReST,JavaScript,YAML,XML,C++,Ini,PLAIN_TEXT,Images,PHP,htaccess,HTML,JSON Schema" collectionTime="1472615954024" />
+    </group>
+    <group name="module type">
+      <project id="untitled1" values="WEB_MODULE" collectionTime="1471693951164" />
+      <project id="katmeds" values="WEB_MODULE" collectionTime="1472615953930" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="untitled1" values="Project,Project" collectionTime="1471693951259" />
+      <project id="katmeds" values="Project,Project" collectionTime="1472615954024" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="AbstractNewProjectStep.Empty Project" count="1" />
+      <entry feature="AbstractNewProjectStep.PHP Empty Project" count="1" />
+      <entry feature="CreateFile.CreateFileAction" count="21" />
+      <entry feature="JSDebugConfig.Debug.browser-default.preferredBrowser-null.no_mappings" count="2" />
+      <entry feature="OpenInBrowser.Chrome" count="5" />
+      <entry feature="OpenInBrowser.Firefox" count="1" />
+      <entry feature="OpenInBrowser.Internet Explorer" count="2" />
+      <entry feature="StripeButton[Debug].hidden" count="1" />
+      <entry feature="StripeButton[Documentation].hidden" count="1" />
+      <entry feature="StripeButton[Event Log].hidden" count="1" />
+      <entry feature="StripeButton[PHP-CGI Server].hidden" count="1" />
+      <entry feature="StripeButton[Version_Control].hidden" count="2" />
+      <entry feature="diff.DiffSettings.Tool.Side-by-side viewer" count="3" />
+      <entry feature="diff.DiffSettings.Tool.Unified viewer" count="3" />
+      <entry feature="diff.DirDiffTableModel" count="4" />
+      <entry feature="diff.DirDiffViewer" count="4" />
+      <entry feature="diff.TextDiffSettings.HighlightPolicy.BY_LINE" count="6" />
+      <entry feature="diff.TextDiffSettings.HighlightPolicy.BY_WORD" count="7" />
+      <entry feature="diff.TextDiffSettings.HighlightPolicy.BY_WORD_SPLIT" count="4" />
+      <entry feature="diff.TextDiffSettings.HighlightPolicy.DO_NOT_HIGHLIGHT" count="2" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.DEFAULT" count="21" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.IGNORE_WHITESPACES" count="22" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.IGNORE_WHITESPACES_CHUNKS" count="2" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.TRIM_WHITESPACES" count="8" />
+      <entry feature="execute.JavascriptDebugType.Debug" count="2" />
+      <entry feature="execute.PHPUnitRunConfigurationType.Coverage" count="1" />
+      <entry feature="execute.PHPUnitRunConfigurationType.Debug" count="2" />
+      <entry feature="execute.PHPUnitRunConfigurationType.Run" count="1" />
+      <entry feature="execute.PhpLocalRunConfigurationType.Debug" count="28" />
+      <entry feature="execute.PhpLocalRunConfigurationType.Run" count="12" />
+      <entry feature="execute.PhpWebAppRunConfigurationType.Debug" count="2269" />
+      <entry feature="execute.PhpWebAppRunConfigurationType.Run" count="9" />
+      <entry feature="execute.js.build_tools.npm.Run" count="3" />
+      <entry feature="git.branch.checkout.local" count="431" />
+      <entry feature="git.branch.checkout.remote" count="235" />
+      <entry feature="git.branch.checkout.revision" count="1" />
+      <entry feature="git.branch.compare" count="492" />
+      <entry feature="git.branch.create.new" count="18" />
+      <entry feature="git.branch.delete.local" count="157" />
+      <entry feature="git.branch.delete.remote" count="1" />
+      <entry feature="git.branch.merge" count="84" />
+      <entry feature="git.branch.rebase" count="5" />
+      <entry feature="git.checkout.as.new.branch" count="4" />
+      <entry feature="ide.help.editing.templates.defineTemplates.editTemplVars" count="1" />
+      <entry feature="ide.help.ideaInterface.changes" count="2" />
+      <entry feature="ide.help.ideaInterface.editor" count="5" />
+      <entry feature="ide.help.procedures.navigating.goto.class" count="1" />
+      <entry feature="ide.help.refactoring.moveFile" count="1" />
+      <entry feature="ide.help.reference.changesToolWindow.log" count="1" />
+      <entry feature="ide.help.top" count="1" />
+      <entry feature="ide.settings.Appearance" count="5" />
+      <entry feature="ide.settings.Auto_Import" count="1" />
+      <entry feature="ide.settings.Code_Style" count="1" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="44" />
+      <entry feature="ide.settings.Console_Colors" count="10" />
+      <entry feature="ide.settings.Debug" count="23" />
+      <entry feature="ide.settings.Debugger" count="3" />
+      <entry feature="ide.settings.Deployment" count="7" />
+      <entry feature="ide.settings.Directories" count="3" />
+      <entry feature="ide.settings.Editor_Tabs" count="4" />
+      <entry feature="ide.settings.Font" count="29" />
+      <entry feature="ide.settings.General" count="2" />
+      <entry feature="ide.settings.JavaScript" count="2" />
+      <entry feature="ide.settings.Keymap" count="15" />
+      <entry feature="ide.settings.Language_Defaults" count="1" />
+      <entry feature="ide.settings.Laravel" count="2" />
+      <entry feature="ide.settings.Live_Templates" count="58" />
+      <entry feature="ide.settings.PHP" count="11" />
+      <entry feature="ide.settings.Plugins" count="6" />
+      <entry feature="ide.settings.Servers" count="8" />
+      <entry feature="ide.settings.System_Settings" count="1" />
+      <entry feature="ide.settings.Terminal" count="5" />
+      <entry feature="ide.settings.Web_Browsers" count="1" />
+      <entry feature="ideaapp.started" count="476" />
+      <entry feature="terminal.win" count="383" />
+      <entry feature="uml.ShowDiagram.DIFF.popup" count="3" />
+      <entry feature="vcs.log.GoToHash/Branch/Tag" count="6" />
+      <entry feature="vcs.log.GraphNodeClick" count="2" />
+      <entry feature="vcs.log.Refresh" count="6" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenDirectoryProject" count="14" />
+      <entry feature="welcome.screen.null" count="1" />
+    </counts>
+  </component>
+</application>

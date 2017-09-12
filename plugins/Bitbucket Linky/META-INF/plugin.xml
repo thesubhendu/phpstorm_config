@@ -1,0 +1,298 @@
+<idea-plugin version="2">
+  <id>com.atlassian.bitbucket.references</id>
+  <name>Bitbucket Linky</name>
+  <version>3.4</version>
+  <vendor email="dpenkin@atlassian.com" url="https://bitbucket.org/atlassianlabs/intellij-bitbucket-references-plugin">Atlassian Labs
+    </vendor>
+  <description>
+      &lt;p&gt;
+        &lt;strong&gt;Bitbucket/Stash References&lt;/strong&gt; plugin is now called &lt;strong&gt;Bitbucket Linky&lt;/strong&gt;
+      &lt;/p&gt;
+
+      &lt;p&gt;
+          Bitbucket Linky plugin provides a handy ways to navigate to &lt;a href="https://www.atlassian.com/software/bitbucket"&gt;Atlassian Bitbucket&lt;/a&gt;.
+          This plugin adds following actions into your IDE:
+          &lt;ul&gt;
+            &lt;li&gt;copy Bitbucket link to the selected file or selected lines in the file (&lt;tt&gt;Ctrl+Shift+X,C&lt;/tt&gt; on Windows / &lt;tt&gt;Cmd+Shift+X,C&lt;/tt&gt; on Mac)&lt;/li&gt;
+            &lt;li&gt;open selected file or selected lines in the file in Bitbucket in your Browser (&lt;tt&gt;Ctrl+Shift+X,B&lt;/tt&gt; on Windows / &lt;tt&gt;Cmd+Shift+X,B&lt;/tt&gt; on Mac)&lt;/li&gt;
+            &lt;li&gt;copy Bitbucket link to the selected commit (VCS log and editor gutter context menus)&lt;/li&gt;
+            &lt;li&gt;open selected commit in Bitbucket in your Browser (VCS log and editor gutter context menus)&lt;/li&gt;
+            &lt;li&gt;open &lt;i&gt;Create pull request&lt;/i&gt; form in Bitbucket for current branch (&lt;tt&gt;Ctrl+Shift+X,P&lt;/tt&gt; on Windows / &lt;tt&gt;Cmd+Shift+X,P&lt;/tt&gt; on Mac)&lt;/li&gt;
+          &lt;/ul&gt;
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        Bitbucket Linky supports both &lt;strong&gt;Bitbucket Cloud&lt;/strong&gt; and &lt;strong&gt;Bitbucket Server&lt;/strong&gt;
+        (formerly known as &lt;strong&gt;Stash&lt;/strong&gt;).
+        &lt;br/&gt;
+        The plugin uses your project's VCS settings (supports both Git and Mercurial) to build links
+        to the repository in Bitbucket, and in most cases doesn't require configuration. However, if
+        Bitbucket hosting is not automatically recognized, it can be configured via IDE preferences.
+      &lt;/p&gt;
+
+      &lt;br/&gt;
+
+      &lt;p&gt;
+        Huge thanks to &lt;b&gt;Brent Plump&lt;/b&gt; and &lt;b&gt;Piotr Wilczyński&lt;/b&gt;!
+      &lt;/p&gt;
+
+      &lt;br/&gt;
+
+      &lt;p&gt;
+        &lt;strong&gt;Please note that this plugin is not officially supported by Atlassian.&lt;/strong&gt;
+      &lt;/p&gt;
+    </description>
+  <change-notes>
+      &lt;p&gt;
+        &lt;strong&gt;3.4:&lt;/strong&gt; released on 06.05.2017
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Remote selection algorithm in case of multiple registered remotes is now deterministic
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Configurable remote selection strategy: automatic selection or fixed remote
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Linky actions added to the VCS log, changes viewer and diff viewer
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;3.3:&lt;/strong&gt; released on 22.03.2017
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Linky actions available in older revisions of a file
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;3.2:&lt;/strong&gt; released on 02.03.2017
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Compatibility issues with IntelliJ 2016.1 and 2016.2
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;3.1:&lt;/strong&gt; released on 23.02.2017
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Branch name escaping in Create Pull Request link
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; File line reference in Commit link for Bitbucket Cloud
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;3.0:&lt;/strong&gt; released on 19.02.2017
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Copy commit link action
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Configuration screens for manual linking to Bitbucket instance
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Configurable default target branch for &lt;i&gt;Create pull request&lt;/i&gt; action
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Change:&lt;/strong&gt; Update action icons
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Change:&lt;/strong&gt; Revamp discovered hosting properties storage
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Change:&lt;/strong&gt; Change the way Bitbucket is discovered
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;2.4:&lt;/strong&gt; released on 05.09.2016
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Handle special characters in branch name (applicable to 'Create Pull Request' action)
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Support &lt;tt&gt;git://&lt;/tt&gt; protocol scheme
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;2.3:&lt;/strong&gt; released on 26.05.2016
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Introduced 'Create Pull Request' action
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;2.2:&lt;/strong&gt; released on 04.03.2016
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Revert changes to line number inclusion/exclusion
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;2.1:&lt;/strong&gt; released on 30.01.2016
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Fix URL construction on Windows
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Fix Hg repositories discovery
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Bitbucket Cloud development environment support
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;2.0:&lt;/strong&gt; released on 27.01.2016
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Include the selected file and line in the link to the Commit view
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Change:&lt;/strong&gt; Improve text selections handling
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Change:&lt;/strong&gt; Link points to the commit hash instead of the branch name, whenever possible
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Change:&lt;/strong&gt; Optimize hosting application discovery process
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;1.6:&lt;/strong&gt; released on 15.01.2016
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Optional dependencies on Git and Hg plugins
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Support spaces and other special characters in file path
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Change:&lt;/strong&gt; User-centric URL for Bitbucket Server personal projects
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;1.5:&lt;/strong&gt; released on 01.01.2016
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Bitbucket actions are available during indexing time
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Support for multiple mercurial repositories within one project
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Bitbucket actions are disabled for ignored and untracked files
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;1.4:&lt;/strong&gt; released on 19.11.2015
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Support for more types of remote URLs.
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;1.3:&lt;/strong&gt; released on 17.11.2015
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; Bitbucket rediscovery attempts
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Change:&lt;/strong&gt; First keystroke of shortcuts mapped to &lt;tt&gt;Ctrl/Cmd+Shift+X&lt;/tt&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;1.2:&lt;/strong&gt; released on 03.11.2015
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Fix:&lt;/strong&gt; Mercurial commit hash handling
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;strong&gt;Change:&lt;/strong&gt; Shortcuts have single second keystroke
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;strong&gt;1.0:&lt;/strong&gt; released on 03.11.2015
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;strong&gt;New:&lt;/strong&gt; 'Copy link' and 'Open' actions for files and 'Open' action for commits shown in the gutter
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/p&gt;
+    &lt;/ul&gt;
+    
+    </change-notes>
+  <idea-version since-build="145.0"/>
+  <depends>com.intellij.modules.lang</depends>
+  <depends optional="true">Git4Idea</depends>
+  <depends optional="true">hg4idea</depends>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <application-components/>
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService serviceInterface="com.atlassian.bitbucket.linky.hosting.BitbucketCloudRegistry" serviceImplementation="com.atlassian.bitbucket.linky.hosting.DefaultBitbucketCloudRegistry"/>
+    <applicationService serviceInterface="com.atlassian.bitbucket.linky.hosting.BitbucketServerRegistry" serviceImplementation="com.atlassian.bitbucket.linky.hosting.DefaultBitbucketServerRegistry"/>
+    <applicationService serviceInterface="com.atlassian.bitbucket.linky.discovery.BitbucketCloudProbe" serviceImplementation="com.atlassian.bitbucket.linky.discovery.DefaultBitbucketCloudProbe"/>
+    <applicationService serviceInterface="com.atlassian.bitbucket.linky.discovery.BitbucketServerProbe" serviceImplementation="com.atlassian.bitbucket.linky.discovery.DefaultBitbucketServerProbe"/>
+    <applicationService serviceInterface="com.atlassian.bitbucket.linky.discovery.CloudBitbucketRepositoryDiscoverer" serviceImplementation="com.atlassian.bitbucket.linky.discovery.CloudBitbucketRepositoryDiscoverer"/>
+    <applicationService serviceInterface="com.atlassian.bitbucket.linky.discovery.ServerBitbucketRepositoryDiscoverer" serviceImplementation="com.atlassian.bitbucket.linky.discovery.ServerBitbucketRepositoryDiscoverer"/>
+    <projectService serviceInterface="com.atlassian.bitbucket.linky.actions.LinkyActionContextProvider" serviceImplementation="com.atlassian.bitbucket.linky.actions.CachingLinkyActionContextProvider"/>
+    <projectService serviceInterface="com.atlassian.bitbucket.linky.discovery.BitbucketRepositoriesDiscoveryService" serviceImplementation="com.atlassian.bitbucket.linky.discovery.DefaultBitbucketRepositoriesDiscoveryService"/>
+    <projectService serviceInterface="com.atlassian.bitbucket.linky.blame.GitLineBlamer" serviceImplementation="com.atlassian.bitbucket.linky.blame.GitLineBlamer"/>
+    <projectService serviceInterface="com.atlassian.bitbucket.linky.blame.HgLineBlamer" serviceImplementation="com.atlassian.bitbucket.linky.blame.HgLineBlamer"/>
+    <projectService serviceInterface="com.atlassian.bitbucket.linky.BitbucketLinkyProvider" serviceImplementation="com.atlassian.bitbucket.linky.DefaultBitbucketLinkyProvider"/>
+    <projectService serviceInterface="com.atlassian.bitbucket.linky.repository.ProjectRepositoriesTraverser" serviceImplementation="com.atlassian.bitbucket.linky.repository.ProjectRepositoriesTraverser"/>
+    <projectService serviceInterface="com.atlassian.bitbucket.linky.repository.RepositorySettings" serviceImplementation="com.atlassian.bitbucket.linky.repository.DefaultRepositorySettings"/>
+    <vcsAnnotationGutterActionProvider implementation="com.atlassian.bitbucket.linky.actions.link.CopyCommitLinkGutterActionProvider"/>
+    <vcsAnnotationGutterActionProvider implementation="com.atlassian.bitbucket.linky.actions.link.OpenCommitInBitbucketGutterActionProvider"/>
+    <projectConfigurable instance="com.atlassian.bitbucket.linky.configuration.MainConfigurationForm" id="com.atlassian.bitbucket.linky" displayName="Bitbucket Linky" nonDefaultProject="true"/>
+  </extensions>
+  <project-components>
+    <component>
+      <interface-class>com.atlassian.bitbucket.linky.discovery.BitbucketRepositoriesService</interface-class>
+      <implementation-class>com.atlassian.bitbucket.linky.discovery.DefaultBitbucketRepositoriesService
+            </implementation-class>
+    </component>
+  </project-components>
+  <actions>
+    <action id="Bitbucket.CopyFileUrlInBitbucket" class="com.atlassian.bitbucket.linky.actions.link.CopyFileUrlInBitbucketAction" icon="BitbucketLinkyIcons.Actions.CopyBitbucketUrl" text="Copy Bitbucket link" description="Copy URL for Bitbucket Source view of the current file">
+      <add-to-group group-id="VersionControlsGroup" anchor="last"/>
+      <add-to-group group-id="VcsHistoryActionsGroup" anchor="last"/>
+      <add-to-group group-id="RepositoryChangesBrowserToolbar" anchor="last"/>
+      <add-to-group group-id="Diff.EditorPopupMenu"/>
+      <add-to-group group-id="Diff.ViewerPopupMenu"/>
+      <add-to-group group-id="Diff.EditorGutterPopupMenu"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift X" second-keystroke="C"/>
+    </action>
+    <action id="Bitbucket.OpenFileInBitbucket" class="com.atlassian.bitbucket.linky.actions.link.OpenFileInBitbucketAction" icon="BitbucketLinkyIcons.Actions.OpenInBitbucket" text="Open in Bitbucket" description="Open Bitbucket Source view of the current file">
+      <add-to-group group-id="VersionControlsGroup" anchor="last"/>
+      <add-to-group group-id="VcsHistoryActionsGroup" anchor="last"/>
+      <add-to-group group-id="RepositoryChangesBrowserToolbar" anchor="last"/>
+      <add-to-group group-id="Diff.EditorPopupMenu"/>
+      <add-to-group group-id="Diff.ViewerPopupMenu"/>
+      <add-to-group group-id="Diff.EditorGutterPopupMenu"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift X" second-keystroke="B"/>
+    </action>
+    <action id="Bitbucket.CreatePullRequest" class="com.atlassian.bitbucket.linky.actions.link.BitbucketCreatePullRequestAction" icon="BitbucketLinkyIcons.Actions.CreatePullRequest" text="Bitbucket Pull Request" description="Create Bitbucket Pull Request">
+      <add-to-group group-id="VersionControlsGroup" anchor="last"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift X" second-keystroke="P"/>
+    </action>
+    <action id="Bitbucket.CopyCommitUrlInBitbucket" class="com.atlassian.bitbucket.linky.actions.link.CopyCommitLinkAction" icon="BitbucketLinkyIcons.Actions.CopyBitbucketUrl" text="Copy Bitbucket Commit link" description="Copy URL for Bitbucket Commit view of the selected commit">
+      <add-to-group group-id="Vcs.Log.ContextMenu" anchor="last"/>
+    </action>
+    <action id="Bitbucket.OpenCommitInBitbucket" class="com.atlassian.bitbucket.linky.actions.link.OpenCommitInBitbucketAction" icon="BitbucketLinkyIcons.Actions.CopyBitbucketUrl" text="Open Commit in Bitbucket" description="Open selected Commit in Bitbucket">
+      <add-to-group group-id="Vcs.Log.ContextMenu" anchor="last"/>
+    </action>
+  </actions>
+</idea-plugin>

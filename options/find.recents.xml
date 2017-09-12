@@ -1,0 +1,36 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>gpm</find>
+      <find>instr</find>
+      <find>java</find>
+      <find>account-name</find>
+      <find>manager</find>
+      <find>display</find>
+      <find>skill</find>
+      <find>columnInd</find>
+      <find>nav</find>
+      <find>appli</find>
+      <find>mime</find>
+      <find>applicant-da</find>
+      <find>sendEmai</find>
+      <find>email</find>
+      <find>save</find>
+      <find>include</find>
+      <find>check</find>
+      <find>request</find>
+      <find>sendEma</find>
+      <find>customMes</find>
+      <find>send-jobs</find>
+      <find>submit</find>
+      <find>modal</find>
+      <find>pay-package</find>
+      <find>con</find>
+      <find>p.job_id</find>
+      <find>start-date</find>
+      <find>valida</find>
+      <find>pars</find>
+      <find>close</find>
+    </findStrings>
+  </component>
+</application>

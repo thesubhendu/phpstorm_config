@@ -1,0 +1,55 @@
+<templateSet group="laravel42">
+  <template name="route" value="Route::get('$route$',['as'=&gt;'$name$','uses'=&gt;'$goto$']);" description="Creates Route" toReformat="false" toShortenFQNames="true">
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="goto" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="view" value="return View::make('$name$');" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="viewvar" value="return View::make('$name$',compact('$var$');" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="form::text" value=" &lt;div class=&quot;form-group&quot;&gt;&#10;      {{ Form::label('$field$', '$name$') }}&#10;      {{ Form::text('$field$', null, array('class' =&gt; 'form-control')) }}&#10; &lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="form::select" value="&lt;div class=&quot;form-group&quot;&gt;&#10;           {{ Form::label('$name$', '$dName$') }}&#10;           {{ Form::select('$name$', [ 'left' =&gt; 'Left', 'right' =&gt; 'Right'], null, ['class' =&gt; 'form-control']) }}&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="dName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="form::submit" value=" {{ Form::submit('$text$', array('class' =&gt; 'btn btn-$btntype$')) }}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="btntype" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ft" value="Form::text('$1$',$2$)" description="Form:: text" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

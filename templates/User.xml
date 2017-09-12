@@ -1,0 +1,137 @@
+<templateSet group="User">
+  <template name="met" value="public function $fname$()&#10;{&#10;    $fcontent$;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="fname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fcontent" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tformer" value="namespace App\Transformers;&#10;use League\Fractal\TransformerAbstract;&#10;class $name$Transformer extends TransformerAbstract&#10;{&#10;    public function transform($Model$ $var$)&#10;    {&#10;        return [&#10;        $key$&#10;                &#10;        ];&#10;    }&#10;}" description="fractal api transformer #dingoapi #katmeds" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Model" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Mail::" value="Mail::send('auth.emails.api.passReset', ['token' =&gt; $token], function ($message) use ($dataInput) {&#10;            $message-&gt;to($dataInput['email']);&#10;        });" description="sends mail in laravel 5+" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="deleteform" value="{!! Form::open(['route'=&gt;['$route$.destroy',$id$], 'method' =&gt;'DELETE', 'class' =&gt;'confirm-delete inline-block']) !!}&#10;    &lt;button class=&quot;btn btn-xs btn-danger&quot;&gt;&lt;i class=&quot;fa fa-trash&quot;&gt;&lt;/i&gt;&lt;/button&gt;&#10;{!! Form::close() !!}" description="Laravel BS delete form" toReformat="false" toShortenFQNames="true">
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dd" value="dd($var1$);" description="diedump" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="clog" value="console.log($var$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="_c" value="function __construct($var1$)&#10;{&#10;    $var$&#10;}" description="Constructor" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="jqcdn" value="&lt;script src=&quot;https://code.jquery.com/jquery-3.1.1.min.js&quot;&#10;  integrity=&quot;sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=&quot;&#10;  crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;" description="jquery 3 cdn" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="laraform" value=" &lt;form action=&quot;{{$1$}}&quot; method=&quot;POST&quot;&gt;&#10;        {{csrf_field()}}&#10;&#10;        &lt;div class=&quot;form-group&quot;&gt;&#10;    &#9;  &lt;label for=&quot;$2$&quot;&gt;$3$&lt;/label&gt;&#10;          &lt;input class=&quot;form-control&quot; name=&quot;$2$&quot; placeholder=&quot;$3$&quot; type=&quot;text&quot;&gt;&#10;        &lt;/div&gt;&#10;&#10;        $4$&#10;               &#10;        &lt;input class=&quot;btn btn-primary&quot; type=&quot;submit&quot; value=&quot;Done&quot;&gt;&#10;        &#10;    &lt;/form&gt;" description="SImple bootstrap form for laravel" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="laratxt" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$1$&quot;&gt;&#10;        $2$&#10;    &lt;/label&gt;&#10;    &lt;input class=&quot;form-control&quot; name=&quot;$1$&quot; placeholder=&quot;$2$&quot; type=&quot;text&quot;&gt;&#10;    $4$&#10;&lt;/div&gt;" description="Bs Text input field" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="php" value="&lt;?php $val$ ?&gt;" description="php tag" toReformat="false" toShortenFQNames="true">
+    <variable name="val" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="sublab" value="Route::get('love/sublab', function () {&#10;   $code$&#10;});&#10;" description="test route" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="cdate" value="\Carbon\Carbon::parse($date$)-&gt;format('m-d-Y')" description="parse american date format" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="''" value="'$1$'=&gt;'$2$'" description="arrray item" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="emailt" value="@extends('layout.email')&#10;&#10;@section('header')&#10;    $1$&#10;@endsection&#10;&#10;&#10;@section('greet')&#10;    $2$&#10;@endsection&#10;&#10;@section('body')&#10;    &lt;span class=&quot;email-body-main&quot;&gt;&#10;       $3$&#10;    &lt;/span&gt;&#10;&#10;    &lt;span class=&quot;email-body-sub&quot;&gt;&#10;        Click the button below to view $sub$.&#10;    &lt;/span&gt;&#10;@endsection&#10;&#10;@section('callout')&#10;    &lt;a href=&quot;{{ $url }}&quot; class=&quot;email-call-out&quot;&gt;&#10;        Click Here$4$&#10;    &lt;/a&gt;&#10;@endsection&#10;&#10;@section('sender-name')&#10;    {{ $recruiter-&gt;first_name . ' ' . $recruiter-&gt;last_name }} $5$&#10;@endsection&#10;&#10;@section('sender-title')&#10;    {{ getRoleLabel($recruiter-&gt;role) }} $6$&#10;@endsection&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="sub" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="6" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="mets" value="public static function $fname$()&#10;{&#10;    $fcontent$;&#10;}" description="Php Static method" toReformat="false" toShortenFQNames="true">
+    <variable name="fname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fcontent" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bif" value="@if(!empty($1$))&#10;    $2$&#10;@endif" description="if temporary" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="&quot;$ref-&gt;&quot;" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="isempty" value="!empty($1$)?$1$:null" description="check if var exist ternary" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="deleteforms" value="{!! Form::open(['route'=&gt;['crm.account.destroy',$idAccount], 'method' =&gt;'DELETE', 'class' =&gt;'confirm-delete inline-block']) !!}&#10;        &lt;button class=&quot;btn btn-xs btn-danger&quot;&gt;&lt;i class=&quot;fa fa-trash&quot;&gt;&lt;/i&gt;&lt;/button&gt;&#10;        {!! Form::close() !!}" description="" toReformat="false" toShortenFQNames="true" />
+</templateSet>

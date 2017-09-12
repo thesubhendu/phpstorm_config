@@ -1,0 +1,90 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="PhpStorm.InitialConfiguration" value="true" />
+    <property name="PhpStorm.dumbRunEnabled" value="true" />
+    <property name="PhpStorm.initialConfigurationShown" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/LaravelApps/stability_v54/app/Repositories&#10;C:/Users/subhendu/LaravelApps/stability_v54/app/Http/Requests&#10;C:/Users/subhendu/LaravelApps/scrm&#10;D:/IDM Inbox/Compressed/stability_db_dumps/shc_live.sql&#10;C:/Users/subhendu/LaravelApps/stability_v54/resources&#10;C:/Users/subhendu/LaravelApps/stability_v54/resources/views&#10;C:/Users/subhendu/LaravelApps/stability_v54/app/Models&#10;C:/Users/subhendu/LaravelApps/stability_v54&#10;C:/Users/subhendu/Pictures/cloud.jpg&#10;C:/Users/subhendu/Pictures/code.JPG&#10;C:/Users/subhendu/LaravelApps/scrm54/app/Http/Controllers&#10;C:/Users/subhendu/LaravelApps/scrm54/app&#10;C:/Users/subhendu/LaravelApps/scrm54/app/Models&#10;C:/Users/subhendu/Desktop/demo&#10;C:/laragon/www/webforum&#10;C:/Users/subhendu/LaravelApps/scrm54&#10;C:/wamp/www/phpstorm-workshop&#10;C:/Users/subhendu/LaravelApps/scrm/app/views/frontend&#10;C:/Program Files/Git/bin/bash.exe&#10;C:/wamp/bin/phpunit-5.7.20.phar&#10;C:/Users/subhendu/Downloads&#10;C:/Users/subhendu/AppData/Roaming/Composer/vendor/autoload.php&#10;C:/laragon/bin/php/php5.6.19/ext/php_xdebug-2.5.3-5.6-vc11-x86_64.dll&#10;C:/laragon/bin/php/php5.6.19/ext/php_xdebug_2.2.dll&#10;C:/laragon/bin/php/php5.6.19/php.exe&#10;C:/laragon/bin/php/php-7.1.1-Win32-VC14-x86/php.exe&#10;C:/laragon/www/scrm&#10;C:/laragon/bin/php/php-7.1.1-Win32-VC14-x86/ext/php_xdebug-2.5.3-7.1-vc14.dll&#10;C:/laragon/bin/php/php-7.1.1-Win32-VC14-x86/ext/php_phpdbg_webhelper.dll&#10;C:/laragon/bin/php/php-7.1.1-Win32-VC14-x86/phpdbg.exe" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+    <property name="lastTip" value="8" />
+    <property name="KEYMAP" value="diff&#10;version control&#10;debug&#10;close&#10;pull" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="PLUGIN_FILTER" value="laravel&#10;material them&#10;material&#10;mater&#10;lara" />
+    <property name="selected.color.option.type" value="EXECUTIONPOINT_ATTRIBUTES" />
+    <property name="ColorChooser.RecentColors" value="86-79-44-255,,,29-47-65-255,,,20-37-65-255,,,16-86-13-255,,,65-47-27-255,,,65-30-42-255,,,11-17-65-255,,,255-0-14-255,,,255-2-10-255,,,255-107-104-255,,,204-63-66-255,,,204-43-41-255,,,204-199-202-255,,,255-47-47-255,,,255-237-248-255,,,20-80-77-255,,,7-12-57-255,,,9-57-52-255,,,7-57-44-255,,,15-33-57-255" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="164" />
+    <property name="typescript.show.auto.import" value="true" />
+    <property name="typescript.merge.auto.import" value="true" />
+    <property name="typescript.use.config.auto.import" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="COMPOSER_PACKAGE_FILTER" value="laravel/laravel" />
+    <property name="SplitFileEditor.Proportion" value="0.56982195" />
+    <property name="vcs.log.details.splitter.proportion" value="1.0" />
+    <property name="fileTypeChangedCounter" value="4" />
+    <property name="FileChooser.ShowPath" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="CommittedChanges.SplitterProportions.0" value="700" />
+    <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.52662724" />
+    <property name="Vcs.Log.Text.Filter.History" value="model&#10;model refa&#10;inst&#10;bill&#10;637" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.28220856" />
+    <property name="RunConfigurable.dividerProportion" value="0.29847908" />
+    <property name="vcs.log.changes.splitter.proportion" value="0.5375" />
+    <property name="OpenOrAttachDialog.OpenMode" value="new" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.6581197" />
+    <property name="dir.diff.panel.divider.location" value="70" />
+    <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="-1" />
+    <property name="settings.code.style.selected.tab.PHP" value="Wrapping and Braces" />
+    <property name="run.configuration.edit.ad" value="true" />
+    <property name="Darcula.savedEditorTheme" value="_@user_Material Theme - Palenight" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="LayoutCode.optimizeImports" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="true" />
+    <property name="LayoutCode.processChangedText" value="false" />
+    <property name="ignore.power.save.mode" value="true" />
+    <property name="JSHintOptionsTreeView.TREE_SCROLL_BAR_HORIZONTAL" value="20" />
+    <property name="JSHintOptionsTreeView.TREE_SCROLL_BAR_VERTICAL" value="1262" />
+    <property name="JSHintOptionsTreeView.TREE_SELECTED_NODE_ID" value="1" />
+    <property name="file.gist.reindex.count" value="29956" />
+    <property name="js.rename.search.in.comments" value="true" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="find.popup.splitter" value="0.53505534" />
+    <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="PALENIGHT" />
+    <property name="PhpUnit.Splitter.Proportion" value="0.13323572" />
+    <property name="disable.forced.soft.wraps.notification" value="true" />
+    <property name="org.intellij.images.editor.actions.SetBackgroundImageDialog#recent" value="C:\Users\subhendu\Pictures\code.JPG&#10;C:\Users\subhendu\Pictures\cloud.jpg" />
+    <property name="MTTabsHeight" value="42" />
+    <property name="ShowDocumentationInToolWindow" value="true" />
+    <property name="DocumentationAutoUpdateEnabled" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="1" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="0" />
+    <property name="idea.background.frame" value="https://raw.githubusercontent.com/mallowigi/material-theme-jetbrains-eap/master/src/main/resources/themes/wall.jpg,60" />
+  </component>
+</application>

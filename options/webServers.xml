@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="35aa90f8-62b9-4dc7-a977-855afe652fa3" name="homestead-Stability-server" url="http://stability.dev">
+        <fileTransfer port="0" mountedRoot="C:\Users\subhendu\LaravelApps" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</application>

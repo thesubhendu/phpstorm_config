@@ -1,0 +1,9 @@
+CREATE TABLE `license_pdf_image` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `license_id` INT (11) NOT NULL,
+  `name` VARCHAR(200)  NULL DEFAULT NULL,
+  `updated_at` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  `created_at` DATETIME NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+;
